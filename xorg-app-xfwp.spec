@@ -1,4 +1,4 @@
-# $Rev: 3390 $, $Date: 2005-08-15 12:17:57 $
+# $Rev: 3390 $, $Date: 2005-08-27 17:42:47 $
 #
 Summary:	xfwp application
 Summary(pl):	Aplikacja xfwp
@@ -16,7 +16,7 @@ BuildRequires:	automake
 BuildRequires:	xorg-lib-libICE-devel
 BuildRequires:	xorg-lib-libX11-devel
 BuildRequires:	xorg-util-util-macros
-BuildRequires:	pkg-config
+BuildRequires:	pkgconfig >= 0.19
 BuildRequires:	xorg-proto-xproxymanagementprotocol-devel
 BuildRoot:	%{tmpdir}/xfwp-%{version}-root-%(id -u -n)
 
