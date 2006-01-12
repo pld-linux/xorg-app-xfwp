@@ -1,12 +1,12 @@
 Summary:	xfwp application
 Summary(pl):	Aplikacja xfwp
 Name:		xorg-app-xfwp
-Version:	0.99.2
+Version:	1.0.1
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/app/xfwp-%{version}.tar.bz2
-# Source0-md5:	423b0aa95d5c0d6e1dc62a25c9455ab4
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/xfwp-%{version}.tar.bz2
+# Source0-md5:	0dbde8b3867032b9e4a383d46dfd7e48
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -47,6 +47,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc COPYING ChangeLog
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*.1x*
