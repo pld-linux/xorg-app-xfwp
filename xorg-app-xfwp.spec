@@ -1,5 +1,5 @@
 Summary:	xfwp application
-Summary(pl.UTF-8):   Aplikacja xfwp
+Summary(pl.UTF-8):	Aplikacja xfwp
 Name:		xorg-app-xfwp
 Version:	1.0.1
 Release:	1
