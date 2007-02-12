@@ -1,5 +1,5 @@
 Summary:	xfwp application
-Summary(pl):	Aplikacja xfwp
+Summary(pl.UTF-8):   Aplikacja xfwp
 Name:		xorg-app-xfwp
 Version:	1.0.1
 Release:	1
@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xfwp application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xfwp.
 
 %prep
