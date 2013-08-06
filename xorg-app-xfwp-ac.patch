@@ -1,0 +1,10 @@
+--- xfwp-1.0.3/configure.ac.orig	2013-08-03 08:37:28.000000000 +0200
++++ xfwp-1.0.3/configure.ac	2013-08-06 21:04:42.334257564 +0200
+@@ -47,6 +47,7 @@
+ 	OS_CFLAGS=
+ 	;;
+ esac
++AC_SUBST([OS_CFLAGS])
+ 
+ # Checks for pkg-config packages
+ PKG_CHECK_MODULES(XFWP, xproto ice xproxymngproto)

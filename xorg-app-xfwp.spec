@@ -7,6 +7,7 @@ License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xfwp-%{version}.tar.bz2
 # Source0-md5:	73512e16b04ed156d45124d4c75fa533
+Patch0:		%{name}-ac.patch
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
@@ -44,6 +45,7 @@ będą mogli połączyć się z lokalnymi serwerami X.
 
 %prep
 %setup -q -n xfwp-%{version}
+%patch0 -p1
 
 %build
 %{__aclocal}
