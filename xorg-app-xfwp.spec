@@ -1,12 +1,12 @@
 Summary:	xfwp application - X firewall proxy
 Summary(pl.UTF-8):	Aplikacja xfwp - proxy X dla firewalli
 Name:		xorg-app-xfwp
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xfwp-%{version}.tar.bz2
-# Source0-md5:	eeb558aad30a8b2bc1f1f0e919ea6f38
+# Source0-md5:	73512e16b04ed156d45124d4c75fa533
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
